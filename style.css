@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: green;
+}
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  background-color: grey;
+  height: 500px;
+}
+input {
+  width: 200px;
+  height: 90px;
+  border: dotted 2px yellow;
+  cursor: pointer;
+  
+}
+
+#redish {
+  background-color: blue;
+  transition: 1s linear;
+}
+#blueish {
+  background-color: red;
+  transition: 2s linear;
+}
+#yellow {
+  background-color: green;
+  transition: 3s linear;
+}
+#green{
+  background-color: purple;
+  transition: 4s linear;
+}
+#purple{
+  background-color: rgb(108, 26, 152);
+  transition: 5s linear;
+}
+#violet {
+  background-color: rgb(83, 80, 80);
+  transition: 6s linear;
+}
+#gray {
+  background-color: rgb(54, 77, 182);
+  transition: 7s linear;
+}
+#navy {
+  background-color: coral;
+  transition: 10s linear;
+}
